@@ -2,6 +2,6 @@
 
 # Special thanks:
 
-    ·luci-app-romupdate
+    ·luci-app-romupdate.
 
-    ·test dev 分支 33
+    ·This is a development branch.
