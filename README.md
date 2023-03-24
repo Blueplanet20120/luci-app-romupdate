@@ -3,5 +3,5 @@
 # Special thanks:
 
     ·luci-app-romupdate
-    ·test
 
+    ·test dev 分支。
