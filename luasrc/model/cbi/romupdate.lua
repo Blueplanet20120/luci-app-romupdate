@@ -43,6 +43,8 @@ translatef("点击上方 执行升级 后请耐心等待至路由器重启.") ..
 button_upgrade_firmware.inputtitle = translate ("执行升级")
 button_upgrade_firmware.write = function()
     luci.sys.call("sh /usr/share/Lenyu-auto.sh -u > /dev/null")
+    luci.http.header('Content-Type', 'text/html')
+    luci.http.write('<script>alert("执行成功…请耐心等待至路由器重启.(若无网络或高版本号，则执行无效!).");</script>')
 end
 
 local e = luci.http.formvalue("cbi.apply")
