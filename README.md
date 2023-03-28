@@ -4,4 +4,4 @@
 
     ·luci-app-romupdate.
 
-    ·This is a stable branch.
+    ·This is a immortalwrt branch.
