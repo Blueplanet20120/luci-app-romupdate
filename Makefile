@@ -6,7 +6,7 @@ LUCI_TITLE:=LuCI Support for AutoBuild Firmware/Romupdate.sh
 LUCI_DEPENDS:=+curl +wget +bash
 LUCI_PKGARCH:=all
 PKG_VERSION:=2
-PKG_RELEASE:=20230322
+PKG_RELEASE:=20240923
 
 include $(TOPDIR)/feeds/luci/luci.mk
 
